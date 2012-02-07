@@ -21,6 +21,10 @@ public class SystemArraycopyTest {
     A[1] = A[1].replace(0, 3, "toi");
 
     System.out.println
+      ("A[0]の値は" + A[0]); // 結果 tiiehoge
+    System.out.println
+      ("A[1]の値は" + A[1]); // 結果 toibar
+    System.out.println
       ("B[0]の値は" + B[0]); // 結果 purupuru1
     System.out.println
       ("B[1]の値は" + B[1]); // 結果 toibar
